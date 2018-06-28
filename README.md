@@ -51,17 +51,17 @@
 - Allows user to manually reset a products quantity count in the database
 
 
-![IMG](/images/manageradjustqty.png)
+	![IMG](/images/manageradjustqty.png)
 
 #### Add Product
 - Allows User to manually add a new product to the database
 
-![IMG](/images/manageraddproduct.png)
+	![IMG](/images/manageraddproduct.png)
 
 #### Quit
 - Pretty self-explanatory.  Logs you out and closes the application.
 
-![IMG](/images/managerquit.png)
+	![IMG](/images/managerquit.png)
 
 
 ### Questions?

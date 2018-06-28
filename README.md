@@ -11,10 +11,8 @@
 ##### Shopping and Adding to Cart
 - The user starts by selecting the number (id) of the product they would like to buy and the quantity that they would like to buy.
 
-https://sunshinedaydeam.github.io/bamazon_pos/images/customer1.png?raw=true
-
 - Then, they are asked to choose to KEEP SHOPPING, CHECKOUT, or QUIT.
-
+https://sunshinedaydeam.github.io/bamazon_pos/images/customer1.png
 ##### Keep Shopping
 
 - They are then prompted to choose another item and quantity.

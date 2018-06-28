@@ -9,22 +9,23 @@
 	- A running MySQL server
 	- Run NPM Install
 
+
 ### Customer Mode 
 ##### Shopping and Adding to Cart
 - The user starts by selecting the number (id) of the product they would like to buy and the quantity that they would like to buy.
 - Then, they are asked to choose to KEEP SHOPPING, CHECKOUT, or QUIT.
-	https://sunshinedaydeam.github.io/bamazon_pos/images/customer1.png
-	https://sunshinedaydeam.github.io/bamazon_pos/images/customer2.png
+	![IMG](/images/customer1.png)
+	![IMG](/images/customer2.png)
 ##### Keep Shopping
 
 - They are then prompted to choose another item and quantity.
 - They are then brought back to choose between continuing to shop, checking out, or quitting.
-	https://sunshinedaydeam.github.io/bamazon_pos/images/customer3.png
+	![IMG](/images/customer3.png)
 ##### Checkout
 
 - They are shown their receipt which includes subtotal prices, sales tax, and grand total price.
 - The quantity of those items they chose are removed from the SQL database.
-	https://sunshinedaydeam.github.io/bamazon_pos/images/receipt.png
+	![IMG](/images/receipt.png)
 ##### Quit
 - This lets the user close the app and not purchase the items.
 

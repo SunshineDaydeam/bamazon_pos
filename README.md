@@ -49,7 +49,7 @@
 
 #### Adjust Quantity
 - Allows user to manually reset a products quantity count in the database
-https://sunshinedaydeam.github.io/bamazon_pos/images/manageradjustqty.png
+
 
 ![IMG](/images/manageradjustqty.png)
 
@@ -58,13 +58,11 @@ https://sunshinedaydeam.github.io/bamazon_pos/images/manageradjustqty.png
 
 ![IMG](/images/manageraddproduct.png)
 
-https://sunshinedaydeam.github.io/bamazon_pos/images/manageraddproduct.png
 #### Quit
 - Pretty self-explanatory.  Logs you out and closes the application.
 
 ![IMG](/images/managerquit.png)
 
-https://sunshinedaydeam.github.io/bamazon_pos/images/managerquit.png
 
 ### Questions?
 ###### You can contact me @ alexbruner@live.com.

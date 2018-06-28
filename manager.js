@@ -25,8 +25,6 @@ function managerMode(){
           "View Low Inventory",
           "Adjust Quantity",
           "Add New Product",
-          "View Total Inventory",
-          "Margin Calculator",
           "Quit"
          ]}
     ]).then(function(answer){
@@ -47,12 +45,12 @@ function managerMode(){
             console.log("\nYou have been logged out of the system...\n");
             connection.end();
         }
-        else if (answer.choices == "View Total Inventory"){
-            totalInventoryCost();
-        }
-        else if (answer.choices == "Margin Calculator"){
-            marginCalculator();
-        }
+        // else if (answer.choices == "View Total Inventory"){
+        //     totalInventoryCost();
+        // }
+        // else if (answer.choices == "Margin Calculator"){
+        //     marginCalculator();
+        // }
         
         
     });
@@ -96,8 +94,8 @@ function viewProduct(){
     });
 }
 function viewLowInventory(){
-    console.log("\nSelecting all products with a quanity of less than 25 units...\n");
-    connection.query("SELECT * FROM products WHERE quantity < 100" , function(err, res) {
+    console.log("\nSelecting all products with a quanity of less than 50 units...\n");
+    connection.query("SELECT * FROM products WHERE quantity < 50" , function(err, res) {
         if (err) throw err;
         // Log all results of the SELECT statement
             for (i=0; i<res.length; i++){
@@ -138,21 +136,22 @@ function addProduct(){
     });
 }
 
-function totalInventoryCost(){
-    console.log("You selected something");
-}
+// function totalInventoryCost(){
+//     console.log("You selected something");
 
-function marginCalculator(){
-    // console.log("\nSelecting all products...\n");
-    // connection.query("SELECT * FROM products" , function(err, res) {
-    //     if (err) throw err;
-    //     // Log all results of the SELECT statement
-    //         for (i=0; i<res.length; i++){
-    //         console.log(res[i].description + ", $" + res[i].msrp + " " + res[i].quantity + " Available" + "   Cost: $" + res[i].cost);
-    //     }
-    // console.log("\n");
-    // managerMode();
-    // });
-    console.log("not finished yet");
-    managerMode();
-}
+// }
+
+// function marginCalculator(){
+//     // console.log("\nSelecting all products...\n");
+//     // connection.query("SELECT * FROM products" , function(err, res) {
+//     //     if (err) throw err;
+//     //     // Log all results of the SELECT statement
+//     //         for (i=0; i<res.length; i++){
+//     //         console.log(res[i].description + ", $" + res[i].msrp + " " + res[i].quantity + " Available" + "   Cost: $" + res[i].cost);
+//     //     }
+//     // console.log("\n");
+//     // managerMode();
+//     // });
+//     console.log("not finished yet");
+//     managerMode();
+// }
